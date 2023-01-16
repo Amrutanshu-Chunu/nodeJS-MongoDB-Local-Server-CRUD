@@ -1,0 +1,30 @@
+### get All Product
+
+GET http://localhost:8908 HTTP/1.1
+
+### get Single Product
+GET mongodb://localhost:27017  HTTP/1.1
+
+### Add items
+POST mongodb://localhost:27017 HTTP/1.1
+Content-Type: application/Json
+
+{
+"name":"Hello Amrutanshu" ,
+"email": "amrutanshup@gmail.com",
+"age": "25"
+}
+
+### update item
+PUT mongodb://localhost:27017  HTTP/1.1
+Content-Type: application/Json
+
+{
+ "name": "UpdatedChunu",
+ "email": "chunu@gmail.com",
+ "age": "26"
+}
+
+### Delete
+DELETE mongodb://localhost:27017 HTTP/1.1
+
